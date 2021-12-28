@@ -1,0 +1,23 @@
+.view-asset{
+    position: relative;
+    left:68px;
+    width: calc(100% - 68px);
+    padding: 30px;
+}
+
+.table-bordered tr,th{
+    position: relative;
+    border: 1px solid black;
+}
+
+.table {
+    text-align: center;
+}
+
+.view-asset .create-asset {
+    float:right;
+}
+
+
+
+

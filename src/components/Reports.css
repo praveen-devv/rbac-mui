@@ -1,0 +1,21 @@
+.reports-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reports-label{
+    font-size: 20px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.btns, .success, .dropdown{
+    display: flex;
+}
+
+.btns .success .btn{
+    margin-right: 5px;
+}
+.drop-success{
+    margin-right: 5px;
+}
