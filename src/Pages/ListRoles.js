@@ -22,7 +22,6 @@ import {
     Typography,
     TablePagination,
  } from '@material-ui/core';
-import { border, borderBottom } from '@mui/system'
 import MTable from '../components/MTable'
 
 const useStyles = makeStyles((theme) => ({
@@ -172,7 +171,7 @@ function ListRoles() {
                 onChangeRowsPerPage={handleChangeRowsPerPage}
             />
           </Paper>
-          <MTable columns={[{id:'roleid',label:'Role ID'},{id:'name',label:'Role Name'},{id:'rolecode',label:'Role Code'}]} datas={[{'roleid':1,'name':'adminqwsdsd','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'}]} />
+          <MTable columns={[{id:'roleid',label:'Role ID'},{id:'name',label:'Role Name'},{id:'rolecode',label:'Role Code'}]} datas={[{'roleid':1,'name':'adminqwsdsd','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'admin','rolecode':'adm01'},{'roleid':1,'name':'zadmin','rolecode':'adm01'}]} />
    </div>
     )
 }
